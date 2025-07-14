@@ -1,7 +1,33 @@
 .navi li{ list-style: none;
-display: flex; }
-.navi a{ color: white;margin: 10px;text-decoration: none; }
-.navi{background-color: crimson;padding: 15px; text-align: center; font-size: larger; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: oblique; }
-body{margin: 0px;padding: 0%;}
-.hero{background-image: url(download\ \(31\).jpeg);
-image-rendering: auto; background-repeat: no-repeat; background-size: cover; height: fit-content; background-position: center; height: 100vh;}
+display: flex;
+justify-content: end;}
+.navi li, a{ color: rgb(47, 34, 16);text-align: right;margin: 10px;text-decoration: none; justify-content:end; }
+.navi{background-color: rgb(255, 243, 197);padding-left: 15px;padding-right: 15px;  font-size: larger; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-style: oblique;align-items: center; 
+    z-index: 999; display: flex; }
+    .navi img{object-fit: contain;width: 100px; min-height: 100px; margin-right: auto; 
+}
+
+
+body{margin: 0px;padding: 0%;
+background-color: rgb(223, 251, 255);}
+
+
+.hero{background-image: url(download\ \(31\)\ -\ Copy.jpeg); margin: 0%;
+    padding: 0%; image-rendering: auto; background-repeat: no-repeat; background-size: cover;
+    max-height: 1000px; background-position: center; height: 100vh; border: top 5px;
+    border-top-color:rgb(0, 0, 0) ; border-style: solid; align-items: center; justify-content: center;
+    display: flex;
+    flex-direction: column;}
+.hero h1{font-size: 75px;
+color: rgb(47, 34, 16);
+margin: 0px;padding:0%;}
+.hero h3{font-size: 35px;
+color: rgb(47, 34, 16);
+margin: 20px;padding:0%;}
+
+.hero button{border-radius: 10px;font-size: 22px;background-color:rgb(255, 255, 255); margin: 40px;}
+.hero button,a{color: rgb(5, 5, 5); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.explore h1{font-size: 60px;font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color:rgb(47, 34, 16) ;text-align: center;}
+
+.products{column-count: 3;}
+img{width: 100px; height: 100%;}
